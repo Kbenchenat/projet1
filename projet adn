@@ -8,7 +8,6 @@ cytosine = sequence.count("C")
 guanine = sequence.count("G")
 
 
-print("Composition de la séquence :")
 print("Adénine (A) :", adenine)
 print("Thymine (T):", thymine)
 print("Cytosine (C):", cytosine)
