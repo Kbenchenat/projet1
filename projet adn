@@ -23,3 +23,4 @@ print("A:", round((adenine/total)*100, 2), "%")
 print("T:", round((thymine/total)*100, 2), "%")
 print("C:", round((cytosine/total)*100, 2), "%")
 print("G:", round((guanine/total)*100, 2), "%")
+amina
