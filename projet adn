@@ -1,0 +1,23 @@
+# Séquence d'ADN
+sequence = "ATCGATCGAATTCGGCTA"
+
+# Calcul de la fréquence de chaque base
+adenine = sequence.count("A")
+thymine = sequence.count("T")
+cytosine = sequence.count("C")
+guanine = sequence.count("G")
+
+# Affichage des résultats
+print("Composition de la séquence :")
+print("Adénine (A) :", adenine)
+print("Thymine (T):", thymine)
+print("Cytosine (C):", cytosine)
+print("Guanine (G):", guanine)
+
+# Longueur totale et pourcentage
+total = len(sequence)
+print("\nPourcentages :")
+print("A:", round((adenine/total)*100, 2), "%")
+print("T:", round((thymine/total)*100, 2), "%")
+print("C:", round((cytosine/total)*100, 2), "%")
+print("G:", round((guanine/total)*100, 2), "%")
