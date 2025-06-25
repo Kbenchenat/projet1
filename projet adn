@@ -14,7 +14,6 @@ print("Thymine (T):", thymine)
 print("Cytosine (C):", cytosine)
 print("Guanine (G):", guanine)
 
-# Longueur totale et pourcentage
 total = len(sequence)
 print("\nPourcentages :")
 print("A:", round((adenine/total)*100, 2), "%")
