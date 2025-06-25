@@ -7,7 +7,7 @@ thymine = sequence.count("T")
 cytosine = sequence.count("C")
 guanine = sequence.count("G")
 
-# Affichage des résultats
+
 print("Composition de la séquence :")
 print("Adénine (A) :", adenine)
 print("Thymine (T):", thymine)
